@@ -29,7 +29,6 @@
 		A42AC3E7212D682800EA63F9 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42AC3E6212D682800EA63F9 /* CoreMedia.framework */; };
 		A42AC3E9212D683000EA63F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42AC3E8212D683000EA63F9 /* CoreGraphics.framework */; };
 		A42AC40A212EB24500EA63F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42AC401212EB24100EA63F9 /* ViewController.m */; };
-		A42AC410212EB24500EA63F9 /* Test.yuv in Resources */ = {isa = PBXBuildFile; fileRef = A42AC408212EB24500EA63F9 /* Test.yuv */; };
 		A42AC413212EB27E00EA63F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A42AC411212EB27E00EA63F9 /* AppDelegate.m */; };
 		A42AC417212EB29C00EA63F9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A42AC416212EB29C00EA63F9 /* Info.plist */; };
 		A42AC419212EB2A300EA63F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42AC418212EB2A300EA63F9 /* LaunchScreen.storyboard */; };
@@ -38,6 +37,7 @@
 		A42AC426212EB86400EA63F9 /* x264.pc in Resources */ = {isa = PBXBuildFile; fileRef = A42AC424212EB86300EA63F9 /* x264.pc */; };
 		A42AC427212EB86400EA63F9 /* libx264.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A42AC425212EB86300EA63F9 /* libx264.a */; };
 		A42AC428212EBBED00EA63F9 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42AC3E4212D682000EA63F9 /* VideoToolbox.framework */; };
+		A4C7D5F62133D5C600A4C972 /* Test.yuv in Resources */ = {isa = PBXBuildFile; fileRef = A4C7D5F52133D5C600A4C972 /* Test.yuv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -175,7 +175,6 @@
 		A42AC3E8212D683000EA63F9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		A42AC400212EB24000EA63F9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A42AC401212EB24100EA63F9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A42AC408212EB24500EA63F9 /* Test.yuv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Test.yuv; sourceTree = "<group>"; };
 		A42AC411212EB27E00EA63F9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A42AC412212EB27E00EA63F9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A42AC416212EB29C00EA63F9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -186,6 +185,7 @@
 		A42AC421212EB86300EA63F9 /* x264.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x264.h; sourceTree = "<group>"; };
 		A42AC424212EB86300EA63F9 /* x264.pc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = x264.pc; sourceTree = "<group>"; };
 		A42AC425212EB86300EA63F9 /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libx264.a; sourceTree = "<group>"; };
+		A4C7D5F52133D5C600A4C972 /* Test.yuv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Test.yuv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,7 +236,7 @@
 		A42AC32C212D676C00EA63F9 /* vidoEncode */ = {
 			isa = PBXGroup;
 			children = (
-				A42AC408212EB24500EA63F9 /* Test.yuv */,
+				A4C7D5F52133D5C600A4C972 /* Test.yuv */,
 				A42AC412212EB27E00EA63F9 /* AppDelegate.h */,
 				A42AC411212EB27E00EA63F9 /* AppDelegate.m */,
 				A42AC400212EB24000EA63F9 /* ViewController.h */,
@@ -576,9 +576,9 @@
 			files = (
 				A42AC3D3212D67E500EA63F9 /* libavfilter.pc in Resources */,
 				A42AC426212EB86400EA63F9 /* x264.pc in Resources */,
+				A4C7D5F62133D5C600A4C972 /* Test.yuv in Resources */,
 				A42AC3CF212D67E500EA63F9 /* libavdevice.pc in Resources */,
 				A42AC3CE212D67E500EA63F9 /* libswresample.pc in Resources */,
-				A42AC410212EB24500EA63F9 /* Test.yuv in Resources */,
 				A42AC41B212EB2B000EA63F9 /* Main.storyboard in Resources */,
 				A42AC41D212EB2C800EA63F9 /* Assets.xcassets in Resources */,
 				A42AC419212EB2A300EA63F9 /* LaunchScreen.storyboard in Resources */,

@@ -42,7 +42,7 @@
     const char* outFilePathChar = [outFilePath UTF8String];
     //得到视频压缩数据格式（h264,h265,mpeg2等等）
     AVOutputFormat* avoutput_format = av_guess_format(NULL, outFilePathChar, NULL);
-    //指定类型
+    //指定类型,必不可少的一步
     avformat_context->oformat = avoutput_format;
     //第三步：打开输出文件
     if (avio_open(&avformat_context->pb, outFilePathChar, AVIO_FLAG_WRITE)<0) {
